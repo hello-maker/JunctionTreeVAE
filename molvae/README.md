@@ -30,9 +30,7 @@ The final model is saved at pre_model/model.2
 We found setting beta > 0.01 greatly damages reconstruction accuracy.
 ```
 mkdir vae_model/
-CUDA_VISIBLE_DEVICES=0 python vaetrain.py --train ../data/zinc/train.txt --vocab ../data/zinc/vocab.txt \
---hidden 450 --depth 3 --latent 56 --batch 40 --lr 0.0007 --beta 0.005 \
---model pre_model/model.2 --save_dir vae_model/
+CUDA_VISIBLE_DEVICES=0 python molvae/vaetrain.py --train data/zinc15/select_train.txt --vocab /home/csy/work/JunctionTreeVAE/data/zinc15/vocab.txt --hidden 450 --depth 3 --latent 56 --batch 40 --lr 0.0007 --beta 0.005 --model molvae/pre_model/model --save_dir molvae/vae_model/
 ```
 
 ## Testing
