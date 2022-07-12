@@ -1,0 +1,20 @@
+name: ReBADD_81
+channels:
+        - pytorch
+        - conda-forge
+        - defaults
+dependencies:
+        - python=3.6
+        - pytorch=1.10.2=py3.6_cuda11.3_cudnn8.2.0_0
+        - cudatoolkit=11.3
+        - rdkit=2017.09
+        - numpy
+        - pandas
+        - jupyter
+        - matplotlib
+        - seaborn
+        - networkx
+        - scikit-learn
+        - lifelines
+        - tqdm
+        - pip
