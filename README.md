@@ -1,4 +1,4 @@
-# JunctionTreeVAE (customized)
+# JunctionTreeVAE (Customized)
 
 Official implementation of Junction Tree Variational Autoencoder [https://arxiv.org/abs/1802.04364](https://arxiv.org/abs/1802.04364)
 
