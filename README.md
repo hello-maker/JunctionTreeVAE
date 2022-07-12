@@ -1,7 +1,7 @@
 # Junction Tree Variational Autoencoder for Molecular Graph Generation
 
 Official implementation of Junction Tree Variational Autoencoder [https://arxiv.org/abs/1802.04364](https://arxiv.org/abs/1802.04364)
-This repo will use to conduct de novo drug design by multi-objective optimization.
+\nThis repo will use to conduct de novo drug design by multi-objective optimization.
 
 # Update
 This repo contains Python script (version 3.6.13) that be able to train JTVAE model.
