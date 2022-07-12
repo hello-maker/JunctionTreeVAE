@@ -12,7 +12,7 @@ This script will preprocess the training data (subgraph enumeration & tree decom
 Step 2: Train VAE model with KL annealing. 
 ```
 mkdir vae_model/
-python vae_train.py --train moses-processed --vocab ../data/vocab.txt --save_dir vae_model/
+python fast_molvae/vae_train.py --train data/zinc15/moses-processed --vocab /home/csy/work/JTVAE_Re/data/zinc15/vocab.txt --save_dir vae_model/
 ```
 Default Options:
 
