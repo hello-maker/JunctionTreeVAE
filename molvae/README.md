@@ -10,7 +10,7 @@ We follow the same train/dev/test split as previous work.
 If you are running our code on a new dataset, you need to compute the vocabulary from your dataset.
 To perform tree decomposition over a set of molecules, run
 ```
-python jtnn/mol_tree.py < data/chembl/select_train.txt > data/chembl/vocab.txt
+python jtnn/mol_tree.py < data/zinc15/select_train.txt > data/zinc15/vocab.txt
 ```
 This gives you the vocabulary of cluster labels over the dataset `select_train.txt`.
 
